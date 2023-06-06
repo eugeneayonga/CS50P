@@ -13,4 +13,4 @@ elif name == "Stannis":
 elif name == "Samuel":
     print("House Tarly")
 else:
-    print("Go away, peasant.")
+    print("Go away, peasant.") # this is the else statement
