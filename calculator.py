@@ -1,8 +1,9 @@
 def main():
-    x = int(input("What's x? "))
+    x = input("What's x? ")
     print("x squared is", square(x))
 
 def square(n):
     return n * n
 
-main()
+if __name__ == "__main__": # If this file is run directly, run main() # If this file is imported, don't run
+    main()
